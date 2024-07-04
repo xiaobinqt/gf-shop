@@ -87,10 +87,10 @@ type RotationListItem struct {
 
 // RotationListCategoryItem 绑定到Rotation列表中的栏目信息
 type RotationListCategoryItem struct {
-	Id           uint   `json:"id"`           // 分类ID，自增主键
-	Name         string `json:"name"`         // 分类名称
-	Thumb        string `json:"thumb"`        // 封面图
-	RotationType string `json:"content_type"` // 内容类型：content, ask, article, reply
+	Id           uint   `json:"id"`            // 分类ID，自增主键
+	Name         string `json:"name"`          // 分类名称
+	Thumb        string `json:"thumb"`         // 封面图
+	RotationType string `json:"rotation_type"` // 内容类型
 
 }
 

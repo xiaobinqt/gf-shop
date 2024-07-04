@@ -17,7 +17,7 @@ type PositionInfo struct {
 	GoodsName interface{} // 商品名称
 	Link      interface{} // 跳转链接
 	Sort      interface{} // 排序
-	GoodsId   interface{} // 商品id
+	GoodsId   interface{} // 商品ID
 	CreatedAt *gtime.Time //
 	UpdatedAt *gtime.Time //
 	DeletedAt *gtime.Time //

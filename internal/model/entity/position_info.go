@@ -15,7 +15,7 @@ type PositionInfo struct {
 	GoodsName string      `json:"goodsName" orm:"goods_name" description:"商品名称"`
 	Link      string      `json:"link"      orm:"link"       description:"跳转链接"`
 	Sort      int         `json:"sort"      orm:"sort"       description:"排序"`
-	GoodsId   int         `json:"goodsId"   orm:"goods_id"   description:"商品id"`
+	GoodsId   int         `json:"goodsId"   orm:"goods_id"   description:"商品ID"`
 	CreatedAt *gtime.Time `json:"createdAt" orm:"created_at" description:""`
 	UpdatedAt *gtime.Time `json:"updatedAt" orm:"updated_at" description:""`
 	DeletedAt *gtime.Time `json:"deletedAt" orm:"deleted_at" description:""`

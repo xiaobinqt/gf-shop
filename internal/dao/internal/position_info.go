@@ -25,7 +25,7 @@ type PositionInfoColumns struct {
 	GoodsName string // 商品名称
 	Link      string // 跳转链接
 	Sort      string // 排序
-	GoodsId   string // 商品id
+	GoodsId   string // 商品ID
 	CreatedAt string //
 	UpdatedAt string //
 	DeletedAt string //
